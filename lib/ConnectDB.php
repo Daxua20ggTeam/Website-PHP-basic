@@ -9,12 +9,11 @@
 		private $host = 'localhost';
 		private $user = 'root';
 		private $pass = '';
-		private $data = 'quanlyphongban';
+		private $data = 'dulieu';
 		private $result = null;
 		public function get_Connection()
 		{ 
-			$conn = new PDO('mysql:host=$host;dbname=$data',$user,$pass) 
-			or die('Ket noi that bai');
+			$conn = mysqli_connect($host,$user,$pass,$data) or die('Ket noi that bai');
 			$this->conn->query('SET NAME UTF-8');
 			return $conn;
 		}

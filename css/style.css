@@ -1,41 +1,67 @@
+/* top */
 #table_top{
-
 	width: 100%;
 	background-color: #715EB9;
 }
 #anh_tieude_1{
 	margin-left: 25px;
 }
-#left_content{
-	margin-top: -10px;
+/* left */
+#left{
 	background-color: #715EB9;
-	height: 450px;
+	height: 470px;
 	width: 15%;
-	float: left;
+	
 }
 #left_content ul{
 	list-style-type: none;
 }
 #left_content ul li input{
 	width: 150px;
-	margin-left: -10px;
+	margin-left: -15px;
 	border-radius: 10px;
 	margin-top: 30px;
 	background-color: #A8DADF;	
 }
-#center_content{
-	float: left;
-	width: 70%;
+/* center */
+#center_content ul{
+	list-style-type:  none;
+}
+#center_content ul li img{
+	margin-top: 10px;
+	width: 910px;
 	height: 450px;
 }
-#right_content{
-	width: 15%;
-	height:450px;
-	overflow:auto;
-	background-color: #715EB9;
-	float: left; 
+#center_content h2{
+	color: #7996C6;
+	text-align: center;
 }
+#center_content div{
+	margin-left: 10%;
+}
+#center_content form{
+	margin-top: 5%; 
+}
+#center_content #text{
+	width: 30%;
+	height: 30px;
+	border-radius: 5px;
+}
+#center_content #submit{
+	width: 10%;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #C8C9E7; 
+}
+#center_content #radio1{
+	margin-left: -100px;
+}
+#center_content #radio2{
+	margin-left: 20px;
+}
+/* right */
 #right_content ul {
+	
 	list-style-type:  none;
 	margin-left: -30px;
 }
@@ -43,6 +69,7 @@
 	border-style: double;
 	margin-top: -5px;
 	padding: 1px;
-	width:150px;
+	width:160px;
 	height:150px;
 }
+/* index */
